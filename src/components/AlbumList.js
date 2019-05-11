@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
-import { View, Text } from 'react-native';
+import { View } from 'react-native';
+
 import axios from 'axios';
+
+import AlbumDetail from './AlbumDetail';
 
 class AlbumList extends Component {
     state = {
@@ -13,13 +16,20 @@ class AlbumList extends Component {
             // Returned promise.  Request handler calls 'setState'.
             .then(response => this.setState({ albums: response.data }));
     }
+
+    renderAlbums() {
+        return this.state.albums.map(album =>
+            // set key, ideally an ID, but the album title is sufficiently unique
+            <AlbumDetail key={album.title} albumData={album} />
+        );
+    }
     
     render() {
         console.log(this.state);
 
         return (
             <View>
-                <Text>AlbumList!!!</Text>
+                {this.renderAlbums()}
             </View>
         );
     }

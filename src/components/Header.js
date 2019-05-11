@@ -30,7 +30,7 @@ const styles = {
         // Shadowing ios
         shadowColor: '#000',
         shadowOffset: { width: 0, height: 2 },
-        shadowOpacity: 0.5,
+        shadowOpacity: 0.1,
         // Shadowing android
         elevation: 2,
         position: 'relative'
