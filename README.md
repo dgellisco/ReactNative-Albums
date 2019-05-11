@@ -1,10 +1,17 @@
 # 'ALBUMS'
 
-My first React-Native app - this app utilizes axios to showcase an artist's top albums.  This project covered many of the key requirements of app development, namely:
-* Project creation and setup (including ESLint)
-* App navigation
-* Components and state
-* Feature integration, in this case axios
+My first React-Native app - this ios/android app allows a user to browse an artist's albums, and follow a link to purchase them online.
+
+## Demonstration
+
+![Image](https://github.com/dgellisco/ReactNative-Albums/blob/master/ReadMe-DemoImg01.gif?raw=true)
+
+## Skills & Competencies Demonstrated
+
+* React-Native Project creation and setup (including ESLint)
+* React-Native App navigation
+* React components and state
+* Adding features, in this case by using the axios package
 
 ## Getting Started
 
