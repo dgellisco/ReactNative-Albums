@@ -6,8 +6,21 @@
  * @flow
  */
 
+//               -----------               //
+//                 IMPORTS                 //
+//               -----------               //
+
+// NPM PACKAGES
 import React, {Component} from 'react';
 import {Platform, StyleSheet, Text, View} from 'react-native';
+
+// COMPONENTS
+import AlbumList from './src/components/AlbumList';
+import Header from './src/components/Header';
+
+//               -------------               //
+//                 VARIABLES                 //
+//               -------------               //
 
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' + 'Cmd+D or shake for dev menu',
@@ -20,11 +33,16 @@ type Props = {};
 export default class App extends Component<Props> {
   render() {
     return (
-      <View style={styles.container}>
-        <Text style={styles.welcome}>Welcome to React Native!</Text>
-        <Text style={styles.instructions}>To get started, edit App.js</Text>
-        <Text style={styles.instructions}>{instructions}</Text>
-      </View>
+      <>
+        {/* Empty element, use self-closing tag */}
+        <Header headerText={'Albums'} />
+        <AlbumList />
+        {/* <View style={styles.container}>
+          <Text style={styles.welcome}>Welcome to React Native!</Text>
+          <Text style={styles.instructions}>To get started, edit App.js</Text>
+          <Text style={styles.instructions}>{instructions}</Text>
+        </View> */}
+      </>
     );
   }
 }
