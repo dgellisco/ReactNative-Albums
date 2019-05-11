@@ -1,5 +1,5 @@
 import React from 'react';
-import { Image, Text, View } from 'react-native';
+import { Image, Linking, Text, View } from 'react-native';
 
 import Button from './Button';
 import Card from './Card';
@@ -8,7 +8,7 @@ import CardSection from './CardSection';
 const AlbumDetail = ({ albumData }) => {
 
     // Album data from JSON
-    const { title, artist, thumbnail_image } = albumData;
+    const { title, artist, url, image, thumbnail_image } = albumData;
     // Styles
     const {
         imageStyle,
@@ -39,12 +39,14 @@ const AlbumDetail = ({ albumData }) => {
             <CardSection>
                 <Image
                     style={imageStyle}
-                    source={{ uri: albumData.image }}
+                    source={{ uri: image }}
                 />
             </CardSection>
 
             <CardSection>
-                <Button onPressFunction={() => console.log('hey whattup nice press')} />
+                <Button onPressFunction={() => Linking.openURL(url)}>
+                    Buy Online
+                </Button>
             </CardSection>
         </Card>
     );
