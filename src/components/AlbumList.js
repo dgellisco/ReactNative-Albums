@@ -12,8 +12,8 @@ class AlbumList extends Component {
     
     componentWillMount() {
         // Axios http request (inherently asynchronous)
-        axios.get('https://rallycoding.herokuapp.com/api/music_albums')
-            // Returned promise.  Request handler calls 'setState'.
+        // axios.get('https://rallycoding.herokuapp.com/api/music_albums')
+        axios.get('https://dgellisco.github.io/fileserver/albums-rnapp-albumlist.txt')
             .then(response => this.setState({ albums: response.data }));
     }
 
