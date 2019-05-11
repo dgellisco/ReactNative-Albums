@@ -1,17 +1,16 @@
 # 'ALBUMS'
 
-My first React-Native app - this ios/android app allows a user to browse an artist's albums, and follow a link to purchase them online.
+My first React-Native app - this ios/android app allows users to browse an artist's albums, and follow a link to purchase those albums online.
 
 ## Demonstration
 
-![Image](https://github.com/dgellisco/ReactNative-Albums/blob/master/ReadMe-DemoImg01.gif?raw=true)
+![Image](https://github.com/dgellisco/ReactNative-Albums/blob/master/README-DemoImg01.gif?raw=true)
 
 ## Skills & Competencies Demonstrated
 
-* React-Native Project creation and setup (including ESLint)
-* React-Native App navigation
+* React-Native project creation and setup (including ESLint)
 * React components and state
-* Adding features, in this case by using the axios package
+* Use of additional packages, i.e. axios
 
 ## Getting Started
 
@@ -22,6 +21,6 @@ My first React-Native app - this ios/android app allows a user to browse an arti
 
 ## Acknowledgments
 
-* Thank you to Stephen Grider for his [wonderful course on React Native](https://www.udemy.com/the-complete-react-native-and-redux-course/)
-* Also, thank you to Trilogy and the University Of Denver for sparking my coding passion with their in-depth [boot camp](https://bootcamp.du.edu/coding/)
+* Thank you to Stephen Grider for his [wonderful course on React Native](https://www.udemy.com/the-complete-react-native-and-redux-course/).
+* Also, thank you to Trilogy and the University Of Denver for sparking my coding passion with their in-depth [boot camp](https://bootcamp.du.edu/coding/).
 
