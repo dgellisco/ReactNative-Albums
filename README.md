@@ -4,7 +4,7 @@ My first React-Native app - this ios/android app allows users to browse an artis
 
 ## Demonstration
 
-![Image](https://github.com/dgellisco/ReactNative-Albums/blob/master/README-DemoImg01.gif?raw=true)
+![Image](https://github.com/dgellisco/ReactNative-Albums/blob/master/README-Demo01.gif?raw=true)
 
 ## Skills & Competencies Demonstrated
 
