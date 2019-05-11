@@ -1,13 +1,17 @@
 import React from 'react';
 import { Image, Text, View } from 'react-native';
 
+import Button from './Button';
 import Card from './Card';
 import CardSection from './CardSection';
 
 const AlbumDetail = ({ albumData }) => {
 
+    // Album data from JSON
     const { title, artist, thumbnail_image } = albumData;
+    // Styles
     const {
+        imageStyle,
         thumbnailContainerStyle,
         thumbnailStyle,
         titleContainerStyle,
@@ -16,17 +20,32 @@ const AlbumDetail = ({ albumData }) => {
 
     return (
         <Card>
+
             <CardSection>
                 <View style={thumbnailContainerStyle}>
-                    <Image style={thumbnailStyle} source={{ uri: thumbnail_image }} />
+                    <Image
+                        style={thumbnailStyle}
+                        source={{ uri: thumbnail_image }}
+                    />
                 </View>
                 <View style={titleContainerStyle}>
                     <Text style={titleTextStyle}>{title}</Text>
-                    <Text>{artist}</Text>
+                    <Text>
+                        {artist}
+                    </Text>
                 </View>
             </CardSection>
-            {/* <Text>{url}</Text> */}
-            {/* <Text>{image}</Text> */}
+
+            <CardSection>
+                <Image
+                    style={imageStyle}
+                    source={{ uri: albumData.image }}
+                />
+            </CardSection>
+
+            <CardSection>
+                <Button onPressFunction={() => console.log('hey whattup nice press')} />
+            </CardSection>
         </Card>
     );
 };
@@ -48,6 +67,11 @@ const styles = {
     },
     titleTextStyle: {
         fontSize: 18
+    },
+    imageStyle: {
+        height: 300,
+        flex: 1,
+        width: null
     }
 };
 
