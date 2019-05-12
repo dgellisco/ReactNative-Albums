@@ -13,7 +13,7 @@ A simple React-Native app that allows users to browse an artist's albums, and fo
 * Use of React-Native components
 * Implementation of additional packages (in this case, axios)
 
-## Getting Started
+## How To View
 
 1. Clone the repo.
 2. Install react-native.
@@ -23,5 +23,5 @@ A simple React-Native app that allows users to browse an artist's albums, and fo
 ## Acknowledgments
 
 * Thank you to Stephen Grider for his [wonderful course on React Native](https://www.udemy.com/the-complete-react-native-and-redux-course/).
-* Also, thank you to Trilogy and the University Of Denver for sparking my coding passion with their in-depth [boot camp](https://bootcamp.du.edu/coding/).
+* Also, thank you to Trilogy and the University Of Denver for sparking my coding passion with their in-depth [coding boot camp](https://bootcamp.du.edu/coding/).
 
