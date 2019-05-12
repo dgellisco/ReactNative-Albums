@@ -35,8 +35,4 @@ class AlbumList extends Component {
     }
 }
 
-const styles = {
-
-};
-
 export default AlbumList;

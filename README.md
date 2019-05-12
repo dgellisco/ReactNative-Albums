@@ -1,6 +1,6 @@
 # 'ALBUMS'
 
-My first React-Native app - this ios/android app allows users to browse an artist's albums, and follow a link to purchase those albums online.
+A simple React-Native app that allows users to browse an artist's albums, and follow a link to purchase the albums online.
 
 ## Demonstration
 
@@ -9,15 +9,16 @@ My first React-Native app - this ios/android app allows users to browse an artis
 ## Skills & Competencies Demonstrated
 
 * React-Native project creation and setup (including ESLint)
-* React components and state
-* Use of additional packages, i.e. axios
+* Proper use of React components and state
+* Use of React-Native components
+* Implementation of additional packages (in this case, axios)
 
 ## Getting Started
 
 1. Clone the repo.
 2. Install react-native.
 3. Install the repo-specific dependencies using `npm install`.
-3. Run the app in an emulator with `react-native run-android` or `react-native run-ios`.  Be sure to reference the [React-Native ReadMe](https://github.com/facebook/react-native/blob/master/README.md) for information.
+3. Run the app in an emulator with `react-native run-android` or `react-native run-ios`.  Be sure to reference the [React-Native ReadMe](https://github.com/facebook/react-native/blob/master/README.md) for information on this process.
 
 ## Acknowledgments
 
