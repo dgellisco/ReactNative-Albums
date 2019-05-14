@@ -9,7 +9,7 @@ A simple React-Native app that allows users to browse an artist's albums, and fo
 ## Skills & Competencies Demonstrated
 
 * React-Native project creation and setup (including ESLint)
-* Proper use of React components and state
+* Use of React components and state
 * Use of React-Native components
 * Implementation of additional packages (in this case, axios)
 
