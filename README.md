@@ -4,7 +4,7 @@ A simple React-Native app that allows users to browse an artist's albums, and fo
 
 ## Demonstration
 
-![Image](https://github.com/dgellisco/ReactNative-Albums/blob/master/README-Demo01.gif?raw=true)
+![Image](https://github.com/dgellisco/ReactNative-SG-Albums/blob/master/README-Demo01.gif?raw=true)
 
 ## Skills & Competencies Demonstrated
 
